@@ -1,0 +1,35 @@
+
+.link-card{ 
+ margin: 5px;
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-link-card{ 
+  color: currentColor;
+  text-align: center;
+  width: 80%;
+ overflow: hidden;
+}
+.text-link-card:hover{
+  color: #ED5B00;  
+}
+.img-card{
+  width: 100%;
+  height: 230px;
+}
+.year-movie{
+  display: flex;
+  justify-content: center;
+}
+.rating-block{
+  display: flex;
+  
+  margin-left: 38%;
+}
+.star-img{
+  margin-right: 5px;
+}

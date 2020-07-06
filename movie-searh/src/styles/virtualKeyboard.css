@@ -1,0 +1,105 @@
+
+.vk {
+ 
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 740px;
+  height: 310px;
+  background-color: rgb(246, 242, 247);
+}
+
+.keyboard_area {
+ padding-top: 18px;
+  width: 700px;
+  height: 201px;
+  margin: 20px;
+  
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "LatoRegular", Verdana, serif;
+}
+.first_row,
+.second_row,
+.third_row,
+.fourth_row,
+.fifth_row {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  position: relative;
+  border-radius: 5px;
+  color: #ffffff;
+   
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  user-select: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  box-shadow:
+  0 1px rgba(255,255,255,.2) inset,
+  0 3px 5px rgba(0,1,6,.5),
+  0 0 1px 1px rgba(0,1,6,.2);
+ transition: .2s ease-in-out;
+}
+
+.extra_symbol {
+  position: absolute;
+  
+  left: 1px;
+  top: 1px;
+}
+.btn:hover {
+  background: linear-gradient(rgb(150, 150, 175), rgb(107, 115, 153)) rgb(53, 53, 196);
+}
+
+.active {
+  top: 1px;  
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+.btn100 {
+  width: 100px;
+  height: 40px;
+}
+.infoChangeLang{
+ 
+  width: 700px;
+  height: 100px;
+ 
+}
+.textOS{
+  display: none;
+  padding-left: 250px;
+  color: rgb(97, 23, 167);
+  text-transform: uppercase;
+  font-family: "LatoRegular", Verdana, serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+.textInfoChangeLang{
+  padding: 0px 0 20px 50px;
+  color: rgb(39, 7, 70);
+  text-transform: uppercase;
+  font-family: "LatoRegular", Verdana, serif;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+}
+@media screen and (max-width: 800px){
+  .vk{
+    width: 700px;
+  }
+  .keyboard_area{
+    width: 100%;
+    margin: 0;
+  }
+  } 

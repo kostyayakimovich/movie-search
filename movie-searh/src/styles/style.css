@@ -1,0 +1,28 @@
+@import url("header.css");
+@import url("slider.css");
+@import url("virtualKeyboard.css");
+@import url("search.css");
+@import url("cards.css");
+@import url("footer.css");
+
+*{
+  margin: 0;
+  padding: 0; 
+}
+.wrap{ 
+  position: relative;
+  width: 1020px;  
+margin: 0 auto;
+font-size: 12px;
+line-height: 22px;
+font-family: "LatoRegular", Verdana, serif;
+}
+body{
+  background-color: rgb(105, 96, 80);
+  color: #ffffff;
+}
+@media screen and (max-width: 1019px){
+  .wrap{
+    width: 100%;
+  }
+  } 
